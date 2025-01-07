@@ -1,0 +1,32 @@
+package com.itvedant.student.dao;
+
+public class UpdateStudentDAO {
+	
+	private String name;
+	private Integer age;
+	private Integer marks;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Integer getAge() {
+		return age;
+	}
+	public void setAge(Integer age) {
+		this.age = age;
+	}
+	public Integer getMarks() {
+		return marks;
+	}
+	public void setMarks(Integer marks) {
+		this.marks = marks;
+	}
+	@Override
+	public String toString() {
+		return "UpdateStudentDAO [name=" + name + ", age=" + age + ", marks=" + marks + "]";
+	}
+
+}

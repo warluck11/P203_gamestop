@@ -1,0 +1,5 @@
+package com.itvedant.product.entity;
+
+public class Product {
+
+}
